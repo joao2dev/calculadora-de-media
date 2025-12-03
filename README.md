@@ -1,82 +1,64 @@
-Calculadora de Médias
+# 📘 Calculadora de Médias
 
-Um mini projeto simples desenvolvido em HTML, CSS e JavaScript para calcular a média de quatro notas escolares.
-O objetivo é praticar conceitos fundamentais de formulários, DOM, validação e estilização com floating labels.
+Uma calculadora simples feita com **HTML**, **CSS** e **JavaScript** para calcular a média de quatro notas.
 
-🚀 Funcionalidades
+---
 
-Entrada de 4 notas pelo usuário
+## 🚀 Demonstração
 
-Botões de Enviar e Limpar
+* Calcula automaticamente a média após inserir as notas
+* Labels animadas no estilo *floating label*
+* Design simples, leve e responsivo
 
-Labels animadas no estilo floating label
+---
 
-Exibição do resultado diretamente na página
+## 🛠 Tecnologias
 
-Estrutura simples e fácil de entender
+* HTML5
+* CSS3
+* JavaScript
 
-Código limpo, organizado e ideal para iniciantes
+---
 
-🛠 Tecnologias Utilizadas
+## 📂 Estrutura
 
-HTML5
-
-CSS3
-
-JavaScript (DOM)
-
-📂 Estrutura do Projeto
-/
+```
+📦 calculadora-de-medias
 ├── index.html
 ├── style.css
 └── script.js
+```
 
-📝 Como usar
+---
 
-Abra o arquivo index.html no navegador
+## ▶ Como usar
 
-Digite as quatro notas
+1. Abra o arquivo **index.html**
+2. Digite as quatro notas
+3. Clique em **Enviar**
+4. O resultado será exibido na área de saída
+5. Clique em **Limpar** para reiniciar o formulário
 
-Clique em Enviar
+---
 
-O sistema irá calcular automaticamente a média e exibir o resultado
+## ✨ Recursos
 
-Clique em Limpar para reiniciar o formulário
+* Interface centralizada
+* Floating label animada
+* Campos intuitivos
+* Código limpo e simples
 
-🎨 Destaques do design
+---
 
-Sistema de floating label feito com CSS
+## 📌 Possíveis melhorias
 
-Interface simples e minimalista
+* Validação para aceitar apenas números
+* Mensagens de erro personalizadas
+* Tema claro/escuro
+* Histórico de médias
 
-Cores suaves para melhor leitura
+---
 
-Caixa centralizada utilizando Flexbox
+## 📄 Licença
 
-📘 Aprendizados nesse projeto
-
-Criando esse mini projeto, você treina:
-
-Manipulação de formulários
-
-Uso de placeholder-shown e animações em labels
-
-Validação básica de dados
-
-Organização de arquivos front-end
-
-Lógica simples com JavaScript
-
-🔧 Melhorias futuras (opcional)
-
-Validação de notas (0 a 10)
-
-Exibir mensagem se alguma nota for inválida
-
-Adicionar modo claro/escuro
-
-Transformar o projeto em uma calculadora de boletim completa
-
-📄 Licença
-
-Este projeto é livre para uso e aprendizado.
+Projeto livre para estudo e uso.
