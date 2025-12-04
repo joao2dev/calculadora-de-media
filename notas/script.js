@@ -13,9 +13,7 @@ function AprovarReprovar(mediaFinal) {
     return mediaFinal >= 7 ? "Aprovado" : "Reprovado";
 }
 
-/* ------------------------------
-   VALIDAÇÕES DO PROFESSOR
---------------------------------*/
+
 
 function validaCampo(elemento) {
     elemento.addEventListener("focusout", function () {
@@ -85,3 +83,4 @@ let camposNumericos = document.querySelectorAll("input.numero");
 
 camposObrigatorios.forEach(campo => validaCampo(campo));
 camposNumericos.forEach(campo => validaCampoNumerico(campo));
+
