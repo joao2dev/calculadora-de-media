@@ -1,6 +1,6 @@
 # 📘 Calculadora de Médias
 
-Uma calculadora simples feita com **HTML**, **CSS** e **JavaScript** para calcular a média de quatro notas.
+Uma calculadora simples feita com **HTML**, **CSS** e **JavaScript** para calcular a média de quatro notas — agora com validação completa dos campos.
 
 ---
 
@@ -8,6 +8,8 @@ Uma calculadora simples feita com **HTML**, **CSS** e **JavaScript** para calcul
 
 * Calcula automaticamente a média após inserir as notas
 * Labels animadas no estilo *floating label*
+* Validação visual dos campos (erro em vermelho)
+* Mensagens claras para valores inválidos
 * Design simples, leve e responsivo
 
 ---
@@ -34,10 +36,11 @@ Uma calculadora simples feita com **HTML**, **CSS** e **JavaScript** para calcul
 ## ▶ Como usar
 
 1. Abra o arquivo **index.html**
-2. Digite as quatro notas
+2. Digite as quatro notas (entre 0 e 10)
 3. Clique em **Enviar**
-4. O resultado será exibido na área de saída
-5. Clique em **Limpar** para reiniciar o formulário
+4. A média será exibida abaixo do formulário
+5. Caso algum campo esteja inválido, ele ficará vermelho
+6. Clique em **Limpar** para reiniciar o formulário
 
 ---
 
@@ -45,17 +48,18 @@ Uma calculadora simples feita com **HTML**, **CSS** e **JavaScript** para calcul
 
 * Interface centralizada
 * Floating label animada
-* Campos intuitivos
-* Código limpo e simples
+* Validação de campos obrigatórios
+* Indicação visual de erros
+* Código limpo e organizado
 
 ---
 
 ## 📌 Possíveis melhorias
 
-* Validação para aceitar apenas números
-* Mensagens de erro personalizadas
 * Tema claro/escuro
-* Histórico de médias
+* Histórico de médias calculadas
+* Exportar resultados
+* Versão com pesos diferentes para cada nota
 
 ---
 
