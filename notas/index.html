@@ -3,42 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora de médias</title>
+    <title>Calculadora de Médias</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
+
     <div id="container">
+
+        <div class="mensagem"></div>
 
         <form id="form_1">
 
             <div class="input-group">
-                <input type="text" id="nota1" name="nota_1" placeholder=" ">
+                <input type="text" id="nota1" name="nota_1" placeholder=" " class="obrigatorio numero">
                 <label for="nota1">Nota 1</label>
             </div>
 
             <div class="input-group">
-                <input type="text" id="nota2" name="nota_2" placeholder=" ">
+                <input type="text" id="nota2" name="nota_2" placeholder=" " class="obrigatorio numero">
                 <label for="nota2">Nota 2</label>
             </div>
 
             <div class="input-group">
-                <input type="text" id="nota3" name="nota_3" placeholder=" ">
+                <input type="text" id="nota3" name="nota_3" placeholder=" " class="obrigatorio numero">
                 <label for="nota3">Nota 3</label>
             </div>
 
             <div class="input-group">
-                <input type="text" id="nota4" name="nota_4" placeholder=" ">
+                <input type="text" id="nota4" name="nota_4" placeholder=" " class="obrigatorio numero">
                 <label for="nota4">Nota 4</label>
             </div>
+
             <div class="buttons">
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-                </div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </div>
+
         </form>
 
         <div id="resultado"></div>
 
     </div>
+
 </body>
 </html>
